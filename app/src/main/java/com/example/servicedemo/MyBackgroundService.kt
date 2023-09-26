@@ -7,7 +7,7 @@ import android.util.Log
 
 class MyBackgroundService : Service() {
 
-    init{
+    init {
         Log.i(TAG,"Service has been created")
     }
 
@@ -27,11 +27,9 @@ class MyBackgroundService : Service() {
         super.onDestroy()
     }
 
-    companion object{
+    companion object {
         const val TAG = "MYTAG"
-        const val NAME ="NAME"
-        const val MARKS="TOTAL MARKS"
+        const val NAME = "NAME"
+        const val MARKS = "TOTAL MARKS"
     }
-
-
 }
